@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src/components/**",
+    "strict": true,
+    "strictNullChecks": true,
+    "checkJs": true,
+    "noImplicitAny": false
+  },
+  "include": ["src/components/**/*", "src/lib/**/*", "src/**/*"],
+  "exclude": ["node_modules"]
+}
