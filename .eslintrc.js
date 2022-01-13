@@ -1,3 +1,7 @@
 module.exports = {
-  extends: ["airbnb-base", "plugin:node/recommended", "prettier"],
+  extends: ['airbnb-base', 'prettier'],
+  rules: {
+    'no-console': 'off',
+    'spaced-comment': ['error', 'never'],
+  },
 };
